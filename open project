@@ -1,0 +1,31 @@
+# class definition
+def class_History(object):
+    """people from the past."""
+     # For initializing our instance objects
+    def __init__(self,age,name):
+          self.name = name
+          self.age = age
+          
+# Note that self is only used in the __init__()
+# function definition; we don't need to pass it
+# to our instance objects.
+
+Columbus = Human("died at the age of 54")
+Magellan = Human("died at the age of 41")
+Gama = Human("died at the age of 64")
+Diaz = Human("died at the age of 50")
+Cortes= Human("dies at the age of 63")
+
+print (Human.name, Human.age, Human is _dead)  
+print (Human.name, Human.age, Human is _dead)
+print (Human.name, Human.age, Human is _dead)
+print (Human.name, Human.age, Human is _dead)
+print (Human.name, Human.age, Human is _dead)
+
+is_alive= False
+
+Columbusis_alive= False
+Magellanis_alive= False
+Gamais_alive= False
+Diazis_alive= False
+Cortesis_alive= False
